@@ -17,4 +17,13 @@
 ✅ Subscribe : store 안에 있는 변화 감지 : store.subscribe(func); // store안의 변화를 감지하면 func 실행
 ✅ state는 변경할 수 없다. state를 수정하는 것이 아니라 새로운 state를 반환하는 것이다.
 
+## 📌 React 환경에서 Redux 사용
+
+1. Redux 활용 TODO 구현
+2. react-router-dom 이용해서 아이템 상세 페이지 구현
+3. localStorage 이용해서 데이터 저장
+
+✅ react-redux의 `useSelector` Hook을 이용해서 store의 데이터를 쉽게 사용할 수 있다.
+✅ react-redux의 `useDispatch` Hook을 이용해서 store에 dispatch 명령을 쉽게 줄 수 있다.
+
 > 출처<br> > [https://nomadcoders.co/redux-for-beginners/](https://nomadcoders.co/redux-for-beginners/)
