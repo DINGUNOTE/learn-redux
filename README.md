@@ -30,5 +30,6 @@
   - `createAction`를 사용해서 action을 간단하게 선언할 수 있다.
   - `createReducer`를 사용해서 reducer 내부에서 switch case문을 사용하지 않아도 되기 때문에 코드량이 줄어든다.
   - `configureStore`를 사용하면 `Redux Dev Tools`를 이용해서 발생한 action이나 그 action이 발생했을 때의 state 등을 확인할 수 있다.(DevTools는 ReduxToolkit을 사용하지 않아도 사용할 수 있다.)
+  - `createSlice`는 reducer와 actions을 캡슐화해서 생성해주기 때문에 코드량을 줄일 수 있다.
 
 > 출처<br> [https://nomadcoders.co/redux-for-beginners/](https://nomadcoders.co/redux-for-beginners/)
