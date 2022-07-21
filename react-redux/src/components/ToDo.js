@@ -1,11 +1,11 @@
-import { removeToDo } from '../store';
+import { remove } from '../store';
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 const ToDo = ({ text, id }) => {
   const dispatch = useDispatch();
   const removeHandle = () => {
-    dispatch(removeToDo(id));
+    dispatch(remove(id));
   };
 
   return (

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import ToDo from '../components/ToDo';
-import { addToDo } from '../store';
+import { add } from '../store';
 
 const Home = () => {
   const [text, setText] = useState('');
@@ -12,7 +12,7 @@ const Home = () => {
   };
   const addHandle = (e) => {
     e.preventDefault();
-    dispatch(addToDo(text));
+    dispatch(add(text));
     setText('');
   };
 
